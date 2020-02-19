@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity Two</title>
+        <style>
+            #lunchPhoto {
+                width: 250px;
+                height: 200px;
+                
+            }
+            #simple-table {
+                border: solid black;
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Activity Two</h1>
+        </header>
+        <nav>
+            <a href="https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Drm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession&cid=0&navigationDirection=forward">Email</a>
+        </nav>
+        <p>
+            <img src="lunch.jpg" id="lunchPhoto">
+        </p>
+        
+        <table class="table" id="simple-table">
+            <thead>
+                <tr>
+                    <th>Simple Table</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Monday's High Temp</th>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <th>Tuesday's High Temp</th>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <th>Wednesday's High Temp</th>
+                    <td>36</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table" id="complex-table" border="1" cellspacing="0">
+            <thead scope="col">
+                <tr>
+                    <th colspan="3">Complex Table</th>
+                </tr>
+                <tr></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Daily Max</th>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <th scope="row">Daily Min</th>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <th scope="row">Daily Precipitation (in)</th>
+                    <td>0.02</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td rowspan="3">&copy; Aaron 2020</td>
+            </tfoot>
+        </table>
+    </body>
+</html>
