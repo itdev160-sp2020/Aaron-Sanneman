@@ -1,0 +1,28 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: lightgrey;
+}
+h1 {
+    color: #ff4000
+}
+h1::first-letter {
+    color: black;
+}
+.deodorant {
+    transform: rotate(90deg);
+    height: 200px;
+    width: 200px;
+}
+p#description {
+    font-weight: 300;
+    color: rgb(0, 64, 255)
+}
+div.review {
+    padding: 10px;
+    color: hsl(105, 100%, 50%)
+    
+    
+}
+footer {
+    line-height: 25px;
+}
